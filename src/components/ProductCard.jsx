@@ -34,7 +34,7 @@ const ProductCard = ({ item }) => {
           <img
             src={item.image}
             alt={item.title}
-            className="w-[180px] h-[180px] md:w-[180px] md:h-[180px]"
+            className="w-[180px] h-[180px]"
           />
           <button
             className="absolute top-1 right-2 bg-black text-white rounded-full p-1"
