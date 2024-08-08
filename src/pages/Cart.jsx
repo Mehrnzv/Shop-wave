@@ -107,7 +107,7 @@ const Cart = () => {
                     <button className="float-right md:hidden" onClick={() => handleRemoveFromCart(item.id)}><IoIosClose size={25}/></button>
                   </div>
                   <div className="hidden md:block font-semibold">
-                    <p>${item.price * item.quantity}</p>
+                    <p>${(item.price * item.quantity).toFixed(2)}</p>
                   </div>
                 </div>
               </div>
